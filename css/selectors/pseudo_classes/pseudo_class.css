@@ -1,0 +1,54 @@
+/* p:first-child
+{
+    color: blueviolet;
+}
+p:last-child
+{
+    color: blue;
+}
+#second
+{
+    color: red;
+}
+input:first-child
+{
+    border: 3px solid pink;
+    background-color: antiquewhite;
+}
+input:last-child:hover
+{
+    border: 3px solid blueviolet;
+    background-color: rgb(225, 210, 238);
+} */
+
+/* 
+input:read-only
+{
+    background-color: lightcoral;
+    color: white;
+} */
+
+#name_input:valid,#password_input:valid
+{
+    border: 2px solid green;
+    outline: none;
+}
+#name_input:invalid,#password_input:invalid
+{
+    border: 2px solid red;
+    outline: none;
+}
+#age:valid
+{
+    border: 2px solid green;
+    outline: none;
+}
+#age:invalid
+{
+    border: 2px solid red;
+    outline: none;
+}
+input:checked
+{
+    transform: scale(1.8);
+}

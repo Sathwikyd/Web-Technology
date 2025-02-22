@@ -1,0 +1,19 @@
+div
+{
+    width: 500px;
+    height: 500px;
+    /* colorname */
+    background-color: blueviolet;
+    /* rgb value */
+    background-color: rgb(40, 80, 0);
+    /* rgba value */
+    background-color: rgba(50, 20, 60, 0.8);
+    /* hex value */
+    background-color: #6b8a9a;
+    /* hexa value */
+    background-color: #9a8c2a9f;
+    /* hsl value */
+    background-color: hsl(10deg, 50%, 20%);
+    /* hsla value */
+    background-color: hsla(60deg, 60%, 60%, 0.8);
+}

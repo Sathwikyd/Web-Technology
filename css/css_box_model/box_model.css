@@ -1,0 +1,20 @@
+h1{
+    background-color: blueviolet;
+    width: fit-content;
+    border: 8px solid gold;
+    padding: 10px;
+    margin-top: 0px;
+}
+input{
+    padding: 10px;
+}
+img{
+    width: 25%;
+    border: 6px solid orange;
+    padding: 20px;
+    margin-top: 20px;
+}
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+}

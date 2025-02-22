@@ -1,0 +1,70 @@
+/* div{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(red,violet,blue,black);
+}
+#one_value
+{
+    border-radius: 10px;
+}
+#two_value
+{
+    border-radius: 10px 20px;
+}
+#four_value
+{
+    border-radius: 10px 20px 30px 40px;
+} */
+/* div
+{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(black,violet);
+}
+#curve
+{
+    border-radius: 100% 0%;
+}
+#a_curve
+{
+    border-radius: 0% 100%;
+} */
+
+/* #parent
+{
+    width: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+}
+
+#one,#two,#three,#four
+{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgb(78, 221, 78),green);
+    float: right;
+}
+#one,#four
+{
+    border-radius: 300px 0px;
+     
+}
+#three,#two
+{
+    border-radius: 0px 300px;
+  
+} */
+
+#parent{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 100px;
+}
+#one
+{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    border-radius: 100px 0 0 100px;
+}

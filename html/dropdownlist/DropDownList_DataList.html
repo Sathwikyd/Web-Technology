@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropDownList_DataList</title>
+</head>
+<body>
+    <form>
+
+    <!-- DROPDOWNLIST CREATION -->
+    <select name="State" id="state">
+
+        <option>Select City</option>
+
+        <optgroup label="Telangana">
+            <option>siddipet</option>
+            <option>hyderabad</option>
+            <option>karimnagar</option>
+        </optgroup>
+
+        <optgroup label="Tamilnadu">
+            <option>pondicherry</option>
+            <option>chennai</option>
+            <option>tiruvanamalai</option>
+        </optgroup>
+
+        <optgroup label="Andhrapradesh">
+            <option>vizag</option>
+            <option>godavari</option>
+            <option>guntur</option>
+        </optgroup>
+
+    </select>
+    <br><br>
+    <!-- DATALIST CREATION -->
+    <label for="courselist">courselist</label>
+    <input type="text" name="CourseList" id="courselist" list="datalist_course" autofocus>
+    <datalist id="datalist_course">
+        <option>html</option>
+        <option>css</option>
+        <option>javascript</option>
+        <option>java</option>
+        <option>python</option>
+    </datalist>
+    </form>
+
+</body>
+</html>

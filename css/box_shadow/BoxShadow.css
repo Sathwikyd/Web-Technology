@@ -1,0 +1,35 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+#button
+{
+    border: none;
+    box-shadow: 3px 3px 3px black;
+}
+#click_button
+{
+    border: none;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: peachpuff;
+    box-shadow: inset -3px -3px 2px rgb(251, 169, 97);
+}
+div
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 45%;
+    border-radius: 100%;
+    background-color: palevioletred;
+    c
+}
+div:hover
+{
+    box-shadow: 20px -20px 0px black, 40px 0px 0px blueviolet, 35px 28px 0px yellow, -10px 30px 0px blue, -30px 0px 0px orange, -10px -40px 0px hotpink;
+    transform: rotate(36000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deg);
+    transition: all 2s;
+}

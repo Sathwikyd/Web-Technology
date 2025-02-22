@@ -1,0 +1,30 @@
+.child
+{
+   display: inline-block;
+   font-size: 40px;
+}
+.text_blue
+{
+    color: royalblue;
+}
+.text_red
+{
+    color: red;
+}
+#text_orange
+{
+    color: orange;
+}
+#text_green
+{
+    color: green;
+}
+marquee
+{
+    height: 50px;
+}
+input
+{
+    border-radius: 30px;
+    width: 35%;
+}

@@ -1,0 +1,38 @@
+fieldset
+{
+    width: 350px;
+    height: 350px;
+    background-image: url(../../assets/images/earth.png);
+    background-repeat: no-repeat;
+}
+h1,p
+{
+    color: transparent;
+}
+fieldset:hover
+{
+    border: 10px double darkblue;
+    background-size: 50%;
+    background-position: left;
+    background-color: lightcyan;
+}
+fieldset:hover>h1
+{
+    color: blue;
+    background-color: skyblue;
+    width: fit-content;
+    margin-left: 55%;
+    margin-top: 80px;
+}
+fieldset:hover>p
+{
+    color: blue;
+    margin-left: 55%;
+    width: fit-content
+}
+fieldset:hover>legend
+{
+    color: darkblue;
+    font-size: 20px;
+    margin-left: 75%;
+}

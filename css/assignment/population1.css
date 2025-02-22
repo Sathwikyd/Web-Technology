@@ -1,0 +1,15 @@
+#india,#china,#us{
+    float: left;
+}
+/* #india_count,#china_count,#us_count{
+    float: left;
+} */
+#india{
+    border-right: 400px solid red;
+}
+#china{
+    border-right: 300px solid orange;
+}
+#us{
+    border-right: 100px solid green;
+}

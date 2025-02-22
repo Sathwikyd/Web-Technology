@@ -1,0 +1,54 @@
+#linear
+{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(orange,
+    white, green);
+}
+#radial
+{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient( orange,
+    white, green);
+}
+#conical
+{
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(red,yellow,violet,pink,green,blue,black,white);
+} */
+
+#image
+{
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(red,red,black,black,red,red,black,black);
+}
+
+#image
+{
+    width: 500px;
+    height: 330px;
+    background-image: linear-gradient(45deg,red,transparent,transparent,transparent,red),linear-gradient(120deg,black,transparent,transparent,transparent,black),url(../../assets/images/red.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+#task1
+{
+    width: 300px;
+    height: 300px;
+    
+    background-image: radial-gradient(circle,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white);
+    float: left;
+}
+
+#task2
+{
+    width: 500px;
+    height: 300px;
+     background-image: radial-gradient(ellipse,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white);
+     float: left;
+}

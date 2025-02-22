@@ -1,0 +1,27 @@
+img
+{
+    width: 150px;
+    height: 150px;
+    border: 3px solid violet;
+    margin-left: -80px;
+    border-radius: 20px;
+    transform: skewX(-25deg);
+    transition: all 1s;
+}
+div
+{
+    margin-top: 40%;
+    margin-left: 35%;
+}
+#asteriod:hover
+{
+    transform: skewX(180deg) translate(140px,-250px) rotate(360deg) scale(1.5);
+}
+#earth:hover
+{
+    transform: skewX(0deg) translate(80px,-250px) rotate(360deg) scale(1.5);
+}
+#sun:hover
+{
+    transform: skewX(360deg) translate(10px,-250px) rotate(360deg) scale(1.5);
+}

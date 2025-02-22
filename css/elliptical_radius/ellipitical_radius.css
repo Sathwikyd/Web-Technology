@@ -1,0 +1,31 @@
+div
+{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(violet,black);
+}
+#circular_radius
+{
+    border-radius: 50px 40px 2% 35px;
+}
+#ellipitical_radius
+{
+    border-radius: 50px/30px;
+    border-radius: 100px 50px/50px 10px;
+    border-radius: 100px 0px 100px 30px/80px 100px 80px 50px;
+}
+#circle
+{
+    border-radius: 50%;
+}
+#ellipse
+{
+    width: 400px;
+    height: 200px;
+    border-radius:50%;
+}
+#task
+{
+    border-radius: 100% 0% 49% 51%/61% 0% 100% 39%;
+    background-image: linear-gradient(lightblue,lightblue,lightblue);
+}
